@@ -1,0 +1,41 @@
+.App {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.TitleSection {
+    width: 100%;
+    background-color: rgb(163, 34, 189);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    flex-direction: column;
+    color: blanchedalmond;
+}
+
+.TitleSection button {
+    margin: 10px;
+    height: 30px;
+    border-radius: 1.5%;
+    background-color: burlywood;
+}
+
+.TitleSection button:hover {
+    cursor: pointer;
+}
+
+.inputSection {
+    height: 30px;
+    font-size: 20px;
+    text-align: center;
+    border: 1px;
+}
+
+.displaySection h3 {
+    margin: 0;
+}
+
+.displaySection img {
+    width: 200px;
+    height: 200;
+}
